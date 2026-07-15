@@ -1,0 +1,4 @@
+PS C:\Users\CP074715> $json = Invoke-RestMethod -Uri "https://api.github.com/repos/Raisibe25/mcino-Introduction-to-Git-and-GitHub"
+PS C:\Users\CP074715> $json.parent.clone_url
+https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub.git
+PS C:\Users\CP074715>
